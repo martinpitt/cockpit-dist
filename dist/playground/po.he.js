@@ -1,0 +1,258 @@
+cockpit.locale({
+ "": {'plural-forms':function(n) {
+var nplurals, plural;
+nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3));
+return plural;
+},
+  "language": "he",
+  "x-generator": "Weblate 4.5.2"
+ },
+ "$0 day": [
+  "$0 days",
+  "יום",
+  "יומיים",
+  "$0 ימים",
+  "$0 ימים"
+ ],
+ "$0 disk is missing": [
+  "$0 disks are missing",
+  "כונן אחד חסר",
+  "$0 כוננים חסרים",
+  "$0 כוננים חסרים",
+  "$0 כוננים חסרים"
+ ],
+ "$0 exited with code $1": [
+  null,
+  "$0 הסתיים עם הקוד $1"
+ ],
+ "$0 failed": [
+  null,
+  "$0 נכשל"
+ ],
+ "$0 hour": [
+  "$0 hours",
+  "שעה",
+  "שעתיים",
+  "$0 שעות",
+  "$0 שעות"
+ ],
+ "$0 killed with signal $1": [
+  null,
+  "$0 נקטל עם האות $1"
+ ],
+ "$0 minute": [
+  "$0 minutes",
+  "דקה",
+  "$0 דקות",
+  "$0 דקות",
+  "$0 דקות"
+ ],
+ "$0 month": [
+  "$0 months",
+  "חודש",
+  "חודשיים",
+  "$0 חודשים",
+  "$0 חודשים"
+ ],
+ "$0 week": [
+  "$0 weeks",
+  "שבוע",
+  "שבועיים",
+  "$0 שבועות",
+  "$0 שבועות"
+ ],
+ "$0 year": [
+  "$0 years",
+  "שנה",
+  "שנתיים",
+  "$0 שנים",
+  "$0 שנים"
+ ],
+ "1 day": [
+  null,
+  "יום"
+ ],
+ "1 hour": [
+  null,
+  "שעה"
+ ],
+ "1 week": [
+  null,
+  "שבוע"
+ ],
+ "5 minutes": [
+  null,
+  "5 דקות"
+ ],
+ "6 hours": [
+  null,
+  "6 שעות"
+ ],
+ "Accounts": [
+  null,
+  "חשבונות"
+ ],
+ "All logs": [
+  null,
+  "כל היומנים"
+ ],
+ "Cancel": [
+  null,
+  "ביטול"
+ ],
+ "Cannot forward login credentials": [
+  null,
+  "לא ניתן להעביר פרטי גישה"
+ ],
+ "Cockpit could not contact the given host.": [
+  null,
+  "ל־Cockpit אין אפשרות ליצור קשר עם המארח שסופק."
+ ],
+ "Cockpit is not compatible with the software on the system.": [
+  null,
+  "Cockpit אינו תואם לתכנה שרצה על המערכת."
+ ],
+ "Cockpit is not installed on the system.": [
+  null,
+  "Cockpit אינו מותקן על המערכת."
+ ],
+ "Connection has timed out.": [
+  null,
+  "הזמן שהוקצב להתחברות תם."
+ ],
+ "Control": [
+  null,
+  "בקרה"
+ ],
+ "Create": [
+  null,
+  "יצירה"
+ ],
+ "Development": [
+  null,
+  "פיתוח"
+ ],
+ "Empty": [
+  null,
+  "ריק"
+ ],
+ "Error": [
+  null,
+  "שגיאה"
+ ],
+ "Go to now": [
+  null,
+  "לעבור כעת"
+ ],
+ "Host key is incorrect": [
+  null,
+  "מפתח המארח שגוי"
+ ],
+ "Internal error": [
+  null,
+  "שגיאה פנימה"
+ ],
+ "Learn more": [
+  null,
+  "מידע נוסף"
+ ],
+ "Login failed": [
+  null,
+  "הכניסה נכשלה"
+ ],
+ "Memory": [
+  null,
+  "זיכרון"
+ ],
+ "No such file or directory": [
+  null,
+  "אין קובץ או תיקייה בשם הזה"
+ ],
+ "Not permitted to perform this action.": [
+  null,
+  "לא מורשה לבצע את הפעולה הזאת."
+ ],
+ "Not ready": [
+  null,
+  "לא מוכן"
+ ],
+ "Ok": [
+  null,
+  "אישור"
+ ],
+ "Path to file": [
+  null,
+  "הנתיב לקובץ"
+ ],
+ "Ready": [
+  null,
+  "מוכן"
+ ],
+ "Reboot": [
+  null,
+  "הפעלה מחדש"
+ ],
+ "Server has closed the connection.": [
+  null,
+  "השרת סגר את החיבור."
+ ],
+ "The server refused to authenticate using any supported methods.": [
+  null,
+  "השרת סירב לאמת בעזרת השיטות הנתמכות."
+ ],
+ "Too much data": [
+  null,
+  "יותר מדי נתונים"
+ ],
+ "Unavailable": [
+  null,
+  "לא זמין"
+ ],
+ "Untrusted host": [
+  null,
+  "מארח בלתי מהימן"
+ ],
+ "User": [
+  null,
+  "משתמש"
+ ],
+ "Your session has been terminated.": [
+  null,
+  "ההפעלה שלך הושמדה."
+ ],
+ "Your session has expired. Please log in again.": [
+  null,
+  "תוקף ההפעלה שלך פג. נא להיכנס שוב."
+ ],
+ "[$0 bytes of binary data]": [
+  null,
+  "[$0 בתים של נתונים בינריים]"
+ ],
+ "[binary data]": [
+  null,
+  "[נתונים בינריים]"
+ ],
+ "[no data]": [
+  null,
+  "[אין נתונים]"
+ ],
+ "disk-non-rotational\u0004$0 disk is missing": [
+  "$0 disks are missing",
+  "כונן אחד חסר",
+  "$0 כוננים חסרים",
+  "$0 כוננים חסרים",
+  "$0 כוננים חסרים"
+ ],
+ "key\u0004Control": [
+  null,
+  "Control"
+ ],
+ "verb\u0004Empty": [
+  null,
+  "לרוקן"
+ ],
+ "verb\u0004Ready": [
+  null,
+  "מוכן"
+ ]
+});
