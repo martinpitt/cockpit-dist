@@ -1,0 +1,161 @@
+# Generated Makefile data for tuned
+# Stamp: Mon May 03 2021 06:49:16 GMT+0000 (Coordinated Universal Time)
+
+tuned_INPUTS = \
+	.babelrc.json \
+	pkg/lib/_global-variables.scss \
+	pkg/lib/cockpit-components-dialog.css \
+	pkg/lib/cockpit-components-dialog.jsx \
+	pkg/lib/page.scss \
+	pkg/lib/patternfly/patternfly-4-overrides.scss \
+	pkg/lib/sassc-loader.js \
+	pkg/lib/service.js \
+	pkg/lib/superuser.js \
+	pkg/tuned/change-profile.jsx \
+	pkg/tuned/dialog.js \
+	pkg/tuned/link.html \
+	pkg/tuned/manifest.json \
+	$(NULL)
+
+tuned_OUTPUTS = \
+	dist/tuned/included-modules \
+	dist/tuned/performance.css \
+	dist/tuned/performance.js \
+	dist/tuned/po.ca.js \
+	dist/tuned/po.cs.js \
+	dist/tuned/po.de.js \
+	dist/tuned/po.es.js \
+	dist/tuned/po.fi.js \
+	dist/tuned/po.fr.js \
+	dist/tuned/po.he.js \
+	dist/tuned/po.it.js \
+	dist/tuned/po.ja.js \
+	dist/tuned/po.ko.js \
+	dist/tuned/po.nb_NO.js \
+	dist/tuned/po.nl.js \
+	dist/tuned/po.pl.js \
+	dist/tuned/po.pt_BR.js \
+	dist/tuned/po.ru.js \
+	dist/tuned/po.sk.js \
+	dist/tuned/po.sv.js \
+	dist/tuned/po.tr.js \
+	dist/tuned/po.uk.js \
+	dist/tuned/po.zh_CN.js \
+	dist/tuned/po.zh_TW.js \
+	$(NULL)
+
+tuned_INSTALL = \
+	dist/tuned/manifest.json \
+	dist/tuned/performance.css.gz \
+	dist/tuned/performance.js.gz \
+	dist/tuned/po.ca.js.gz \
+	dist/tuned/po.cs.js.gz \
+	dist/tuned/po.de.js.gz \
+	dist/tuned/po.es.js.gz \
+	dist/tuned/po.fi.js.gz \
+	dist/tuned/po.fr.js.gz \
+	dist/tuned/po.he.js.gz \
+	dist/tuned/po.it.js.gz \
+	dist/tuned/po.ja.js.gz \
+	dist/tuned/po.ko.js.gz \
+	dist/tuned/po.nb_NO.js.gz \
+	dist/tuned/po.nl.js.gz \
+	dist/tuned/po.pl.js.gz \
+	dist/tuned/po.pt_BR.js.gz \
+	dist/tuned/po.ru.js.gz \
+	dist/tuned/po.sk.js.gz \
+	dist/tuned/po.sv.js.gz \
+	dist/tuned/po.tr.js.gz \
+	dist/tuned/po.uk.js.gz \
+	dist/tuned/po.zh_CN.js.gz \
+	dist/tuned/po.zh_TW.js.gz \
+	$(NULL)
+
+tuned_TESTS = \
+	$(NULL)
+
+dist/tuned/manifest.json: $(tuned_INPUTS)
+
+dist/tuned/included-modules: dist/tuned/manifest.json
+
+dist/tuned/performance.css: dist/tuned/manifest.json
+
+dist/tuned/performance.js: dist/tuned/manifest.json
+
+dist/tuned/po.ca.js: dist/tuned/manifest.json
+
+dist/tuned/po.cs.js: dist/tuned/manifest.json
+
+dist/tuned/po.de.js: dist/tuned/manifest.json
+
+dist/tuned/po.es.js: dist/tuned/manifest.json
+
+dist/tuned/po.fi.js: dist/tuned/manifest.json
+
+dist/tuned/po.fr.js: dist/tuned/manifest.json
+
+dist/tuned/po.he.js: dist/tuned/manifest.json
+
+dist/tuned/po.it.js: dist/tuned/manifest.json
+
+dist/tuned/po.ja.js: dist/tuned/manifest.json
+
+dist/tuned/po.ko.js: dist/tuned/manifest.json
+
+dist/tuned/po.nb_NO.js: dist/tuned/manifest.json
+
+dist/tuned/po.nl.js: dist/tuned/manifest.json
+
+dist/tuned/po.pl.js: dist/tuned/manifest.json
+
+dist/tuned/po.pt_BR.js: dist/tuned/manifest.json
+
+dist/tuned/po.ru.js: dist/tuned/manifest.json
+
+dist/tuned/po.sk.js: dist/tuned/manifest.json
+
+dist/tuned/po.sv.js: dist/tuned/manifest.json
+
+dist/tuned/po.tr.js: dist/tuned/manifest.json
+
+dist/tuned/po.uk.js: dist/tuned/manifest.json
+
+dist/tuned/po.zh_CN.js: dist/tuned/manifest.json
+
+dist/tuned/po.zh_TW.js: dist/tuned/manifest.json
+
+.babelrc.json:
+
+pkg/lib/_global-variables.scss:
+
+pkg/lib/cockpit-components-dialog.css:
+
+pkg/lib/cockpit-components-dialog.jsx:
+
+pkg/lib/page.scss:
+
+pkg/lib/patternfly/patternfly-4-overrides.scss:
+
+pkg/lib/sassc-loader.js:
+
+pkg/lib/service.js:
+
+pkg/lib/superuser.js:
+
+pkg/tuned/change-profile.jsx:
+
+pkg/tuned/dialog.js:
+
+pkg/tuned/link.html:
+
+pkg/tuned/manifest.json:
+
+WEBPACK_INPUTS += $(tuned_INPUTS)
+WEBPACK_OUTPUTS += $(tuned_OUTPUTS)
+WEBPACK_INSTALL += $(tuned_INSTALL)
+TESTS += $(tuned_TESTS)
+
+tuned: dist/tuned/manifest.json
+maintainer-clean-tuned: 
+	rm -rf $(tuned_OUTPUTS) $(tuned_INSTALL) dist/tuned/manifest.json
+maintainer-clean-local:: clean-tuned
