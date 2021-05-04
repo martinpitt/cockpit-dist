@@ -1,0 +1,434 @@
+cockpit.locale({
+ "": {'plural-forms':function(n) {
+var nplurals, plural;
+nplurals=2; plural=n != 1;
+return plural;
+},
+  "language": "sv",
+  "x-generator": "Weblate 4.0.4"
+ },
+ "$0 GiB total": [
+  null,
+  ""
+ ],
+ "$0 exited with code $1": [
+  null,
+  "$0 avslutade med kod $1"
+ ],
+ "$0 failed": [
+  null,
+  "$0 misslyckades"
+ ],
+ "$0 is not available from any repository.": [
+  null,
+  "$0 är inte tillgängligt från något förråd."
+ ],
+ "$0 killed with signal $1": [
+  null,
+  "$0 dödad med signal $1"
+ ],
+ "$0 will be installed.": [
+  null,
+  "$0 kommer att installeras."
+ ],
+ "1 min": [
+  null,
+  "1 min"
+ ],
+ "5 min": [
+  null,
+  "5 min"
+ ],
+ "Absent": [
+  null,
+  "Frånvarande"
+ ],
+ "Additional packages:": [
+  null,
+  "Ytterligare paket:"
+ ],
+ "Advanced TCA": [
+  null,
+  "Avanserad TCA"
+ ],
+ "All logs": [
+  null,
+  "Alla loggar"
+ ],
+ "All-in-one": [
+  null,
+  ""
+ ],
+ "Blade": [
+  null,
+  "Blad"
+ ],
+ "Blade enclosure": [
+  null,
+  "Bladhölje"
+ ],
+ "Bus expansion chassis": [
+  null,
+  "Bussexpansionschassi"
+ ],
+ "CPU": [
+  null,
+  "CPU"
+ ],
+ "Cancel": [
+  null,
+  "Avbryt"
+ ],
+ "Cannot forward login credentials": [
+  null,
+  "Kan inte vidarebefordra inloggningsuppgifterna"
+ ],
+ "Checking installed software": [
+  null,
+  "Kontrollerar installerad programvara"
+ ],
+ "Cockpit could not contact the given host.": [
+  null,
+  "Cockpit kunde inte kontakta den angivna värden."
+ ],
+ "Cockpit is not compatible with the software on the system.": [
+  null,
+  "Cockpit är inte kompatibelt med programvaran på systemet."
+ ],
+ "Cockpit is not installed on the system.": [
+  null,
+  "Cockpit är inte installerat på systemet."
+ ],
+ "Compact PCI": [
+  null,
+  "Kompakt PCI"
+ ],
+ "Connection has timed out.": [
+  null,
+  "Anslutningens tidsgräns överskreds."
+ ],
+ "Convertible": [
+  null,
+  "Konvertibel"
+ ],
+ "Desktop": [
+  null,
+  "Skrivbord"
+ ],
+ "Detachable": [
+  null,
+  "Frånkopplingsbar"
+ ],
+ "Disk I/O": [
+  null,
+  "Disk-I/O"
+ ],
+ "Disks": [
+  null,
+  "Diskar"
+ ],
+ "Docking station": [
+  null,
+  "Dockningsstation"
+ ],
+ "Downloading $0": [
+  null,
+  "Hämtar $0"
+ ],
+ "Dual rank": [
+  null,
+  "Dubbelrad"
+ ],
+ "Embedded PC": [
+  null,
+  "Inbäddad PC"
+ ],
+ "Event": [
+  null,
+  ""
+ ],
+ "Expansion chassis": [
+  null,
+  "Expansionschassin"
+ ],
+ "Host key is incorrect": [
+  null,
+  "Värdnyckeln är felaktig"
+ ],
+ "In": [
+  null,
+  ""
+ ],
+ "Install": [
+  null,
+  "Installera"
+ ],
+ "Install cockpit-pcp": [
+  null,
+  ""
+ ],
+ "Install software": [
+  null,
+  "Installera programvara"
+ ],
+ "Installing $0": [
+  null,
+  "Installerar $0"
+ ],
+ "Internal error": [
+  null,
+  "Internt fel"
+ ],
+ "IoT gateway": [
+  null,
+  "IoT-gateway"
+ ],
+ "Is 'pmlogger' service running?": [
+  null,
+  ""
+ ],
+ "Jump to": [
+  null,
+  ""
+ ],
+ "Laptop": [
+  null,
+  "Bärbar dator"
+ ],
+ "Learn more": [
+  null,
+  "Mer information"
+ ],
+ "Load": [
+  null,
+  ""
+ ],
+ "Load spike": [
+  null,
+  ""
+ ],
+ "Loading...": [
+  null,
+  "Läser in …"
+ ],
+ "Log out": [
+  null,
+  "Logga ut"
+ ],
+ "Login failed": [
+  null,
+  "Inloggningen misslyckades"
+ ],
+ "Low profile desktop": [
+  null,
+  "Lågprofilskrivbord"
+ ],
+ "Lunch box": [
+  null,
+  "Lunchlåda"
+ ],
+ "Main server chassis": [
+  null,
+  "Huvudserverchassi"
+ ],
+ "Memory": [
+  null,
+  "Minne"
+ ],
+ "Mini PC": [
+  null,
+  "Mini-PC"
+ ],
+ "Mini tower": [
+  null,
+  "Minitorn"
+ ],
+ "Multi-system chassis": [
+  null,
+  "Multisystemschassi"
+ ],
+ "No logs found": [
+  null,
+  ""
+ ],
+ "Not permitted to perform this action.": [
+  null,
+  "Inte tillåtet att utföra denna åtgärd."
+ ],
+ "Notebook": [
+  null,
+  "Bärbar (notebook)"
+ ],
+ "Ok": [
+  null,
+  "Ok"
+ ],
+ "Other": [
+  null,
+  "Annan"
+ ],
+ "Out": [
+  null,
+  ""
+ ],
+ "Overview": [
+  null,
+  "Översikt"
+ ],
+ "Package cockpit-pcp is missing for metrics history": [
+  null,
+  ""
+ ],
+ "PackageKit crashed": [
+  null,
+  "PackageKit kraschade"
+ ],
+ "Peripheral chassis": [
+  null,
+  "Periferichassi"
+ ],
+ "Pizza box": [
+  null,
+  "Pizzalåda"
+ ],
+ "Portable": [
+  null,
+  "Bärbar"
+ ],
+ "Present": [
+  null,
+  ""
+ ],
+ "RAID chassis": [
+  null,
+  "RAID-chassi"
+ ],
+ "RAM": [
+  null,
+  ""
+ ],
+ "Rack mount chassis": [
+  null,
+  "Rackmonteringschassi"
+ ],
+ "Reboot": [
+  null,
+  "Starta om"
+ ],
+ "Removals:": [
+  null,
+  "Borttagningar:"
+ ],
+ "Removing $0": [
+  null,
+  "Tar bort $0"
+ ],
+ "Sealed-case PC": [
+  null,
+  "PC med slutet hölje"
+ ],
+ "Server has closed the connection.": [
+  null,
+  "Servern har stängt förbindelsen."
+ ],
+ "Service": [
+  null,
+  "Tjänst"
+ ],
+ "Single rank": [
+  null,
+  ""
+ ],
+ "Space-saving computer": [
+  null,
+  "Utrymmessparande dator"
+ ],
+ "Stick PC": [
+  null,
+  "Pinndator"
+ ],
+ "Swap": [
+  null,
+  "Växlingsutrymme"
+ ],
+ "Tablet": [
+  null,
+  "Platta"
+ ],
+ "The server refused to authenticate using any supported methods.": [
+  null,
+  "Servern vägrade att autentisera med några stödda metoder."
+ ],
+ "Today": [
+  null,
+  ""
+ ],
+ "Too much data": [
+  null,
+  "För mycket data"
+ ],
+ "Total size: $0": [
+  null,
+  "Total storlek: $0"
+ ],
+ "Tower": [
+  null,
+  "Torn"
+ ],
+ "Troubleshoot": [
+  null,
+  "Felsök"
+ ],
+ "Unknown": [
+  null,
+  "Okänd"
+ ],
+ "Untrusted host": [
+  null,
+  "Ej betrodd värd"
+ ],
+ "Usage": [
+  null,
+  "Användning"
+ ],
+ "Used": [
+  null,
+  "Använt"
+ ],
+ "Waiting for other software management operations to finish": [
+  null,
+  "Väntar på att andra programvaruhanteringsåtgärder skall bli klara"
+ ],
+ "You need to relogin to be able to see metrics": [
+  null,
+  ""
+ ],
+ "Your session has been terminated.": [
+  null,
+  "Din session har avslutats."
+ ],
+ "Your session has expired. Please log in again.": [
+  null,
+  "Din session har gått ut.  Logga in igen."
+ ],
+ "[$0 bytes of binary data]": [
+  null,
+  "[$0 byte med binärdata]"
+ ],
+ "[binary data]": [
+  null,
+  "[binärdata]"
+ ],
+ "[no data]": [
+  null,
+  "[inga data]"
+ ],
+ "nice": [
+  null,
+  ""
+ ],
+ "user": [
+  null,
+  "användare"
+ ]
+});
