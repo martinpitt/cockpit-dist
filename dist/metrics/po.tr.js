@@ -1,0 +1,568 @@
+cockpit.locale({
+ "": {'plural-forms':function(n) {
+var nplurals, plural;
+nplurals=2; plural=(n>1);
+return plural;
+},
+  "language": "tr",
+  "x-generator": "Weblate 4.5.1"
+ },
+ "$0 CPU": [
+  "$0 CPUs",
+  "$0 CPU",
+  "$0 CPU"
+ ],
+ "$0 GiB available": [
+  null,
+  "$0 GiB kullanılabilir"
+ ],
+ "$0 GiB total": [
+  null,
+  "$0 GiB toplam"
+ ],
+ "$0 exited with code $1": [
+  null,
+  "$0, $1 koduyla çıkış yaptı"
+ ],
+ "$0 failed": [
+  null,
+  "$0 başarısız oldu"
+ ],
+ "$0 free": [
+  null,
+  "$0 boş"
+ ],
+ "$0 is not available from any repository.": [
+  null,
+  "$0, hiçbir depoda yok."
+ ],
+ "$0 killed with signal $1": [
+  null,
+  "$0, $1 sinyali ile sonlandırıldı"
+ ],
+ "$0 page": [
+  "$0 pages",
+  "$0 sayfa",
+  "$0 sayfa"
+ ],
+ "$0 total": [
+  null,
+  "$0 toplam"
+ ],
+ "$0 will be installed.": [
+  null,
+  "$0 yüklenecektir."
+ ],
+ "1 min": [
+  null,
+  "1 dak"
+ ],
+ "15 min": [
+  null,
+  "15 dak"
+ ],
+ "5 min": [
+  null,
+  "5 dak"
+ ],
+ "Absent": [
+  null,
+  "Yok"
+ ],
+ "Additional packages:": [
+  null,
+  "Ek paketler:"
+ ],
+ "Advanced TCA": [
+  null,
+  "Gelişmiş TCA"
+ ],
+ "All logs": [
+  null,
+  "Tüm günlükler"
+ ],
+ "All-in-one": [
+  null,
+  "Hepsi-bir-arada"
+ ],
+ "Blade": [
+  null,
+  "Blade"
+ ],
+ "Blade enclosure": [
+  null,
+  "Blade kasası"
+ ],
+ "Bus expansion chassis": [
+  null,
+  "Veri yolu genişletme kasası"
+ ],
+ "CPU": [
+  null,
+  "CPU"
+ ],
+ "CPU spike": [
+  null,
+  "CPU sıçraması"
+ ],
+ "CPU usage": [
+  null,
+  "CPU kullanımı"
+ ],
+ "Cancel": [
+  null,
+  "İptal"
+ ],
+ "Cannot forward login credentials": [
+  null,
+  "Oturum açma kimlik bilgileri yönlendirilemiyor"
+ ],
+ "Checking installed software": [
+  null,
+  "Yüklü yazılımlar denetleniyor"
+ ],
+ "Cockpit could not contact the given host.": [
+  null,
+  "Cockpit, verilen anamakineyle iletişim kuramadı."
+ ],
+ "Cockpit is not compatible with the software on the system.": [
+  null,
+  "Cockpit, sistemdeki yazılımla uyumlu değil."
+ ],
+ "Cockpit is not installed on the system.": [
+  null,
+  "Cockpit sistemde yüklü değil."
+ ],
+ "Compact PCI": [
+  null,
+  "Compact PCI"
+ ],
+ "Connection has timed out.": [
+  null,
+  "Bağlantı zaman aşımına uğradı."
+ ],
+ "Convertible": [
+  null,
+  "Dönüştürülebilir"
+ ],
+ "Core $0": [
+  null,
+  "Çekirdek $0"
+ ],
+ "Desktop": [
+  null,
+  "Masaüstü"
+ ],
+ "Detachable": [
+  null,
+  "Ayrılabilir"
+ ],
+ "Disk I/O": [
+  null,
+  "Disk okuma/yazma"
+ ],
+ "Disk I/O spike": [
+  null,
+  "Disk G/Ç sıçraması"
+ ],
+ "Disks": [
+  null,
+  "Diskler"
+ ],
+ "Docking station": [
+  null,
+  "Kenetleme istasyonu"
+ ],
+ "Downloading $0": [
+  null,
+  "$0 indiriliyor"
+ ],
+ "Dual rank": [
+  null,
+  "Çift sıra"
+ ],
+ "Embedded PC": [
+  null,
+  "Gömülü PC"
+ ],
+ "Error has occurred": [
+  null,
+  "Hata meydana geldi"
+ ],
+ "Event": [
+  null,
+  "Olay"
+ ],
+ "Event logs": [
+  null,
+  "Olay günlükleri"
+ ],
+ "Expansion chassis": [
+  null,
+  "Genişletme kasası"
+ ],
+ "Handheld": [
+  null,
+  "Elde taşınan"
+ ],
+ "Host key is incorrect": [
+  null,
+  "Anamakine anahtarı yanlış"
+ ],
+ "In": [
+  null,
+  "Gelen"
+ ],
+ "Install": [
+  null,
+  "Yükle"
+ ],
+ "Install cockpit-pcp": [
+  null,
+  "cockpit-pcp'yi yükle"
+ ],
+ "Install software": [
+  null,
+  "Yazılım yükle"
+ ],
+ "Installing $0": [
+  null,
+  "$0 yükleniyor"
+ ],
+ "Interface": [
+  null,
+  "Arayüz"
+ ],
+ "Internal error": [
+  null,
+  "Dahili hata"
+ ],
+ "IoT gateway": [
+  null,
+  "IoT ağ geçidi"
+ ],
+ "Is 'pmlogger' service running?": [
+  null,
+  "'pmlogger' hizmeti çalışıyor mu?"
+ ],
+ "Jump to": [
+  null,
+  "Şuna atla"
+ ],
+ "Laptop": [
+  null,
+  "Dizüstü"
+ ],
+ "Learn more": [
+  null,
+  "Daha fazla bilgi edinin"
+ ],
+ "Load": [
+  null,
+  "Yük"
+ ],
+ "Load earlier data": [
+  null,
+  "Daha önceki verileri yükle"
+ ],
+ "Load spike": [
+  null,
+  "Yük sıçraması"
+ ],
+ "Loading...": [
+  null,
+  "Yükleniyor..."
+ ],
+ "Log out": [
+  null,
+  "Oturumu kapat"
+ ],
+ "Login failed": [
+  null,
+  "Oturum açma başarısız oldu"
+ ],
+ "Low profile desktop": [
+  null,
+  "Düşük profilli masaüstü"
+ ],
+ "Lunch box": [
+  null,
+  "Lunch box"
+ ],
+ "Main server chassis": [
+  null,
+  "Ana sunucu kasası"
+ ],
+ "Memory": [
+  null,
+  "Bellek"
+ ],
+ "Memory spike": [
+  null,
+  "Bellek sıçraması"
+ ],
+ "Memory usage": [
+  null,
+  "Bellek kullanımı"
+ ],
+ "Metrics history could not be loaded": [
+  null,
+  "Ölçümler geçmişi yüklenemedi"
+ ],
+ "Mini PC": [
+  null,
+  "Mini PC"
+ ],
+ "Mini tower": [
+  null,
+  "Mini tower"
+ ],
+ "Multi-system chassis": [
+  null,
+  "Çok sistemli kasa"
+ ],
+ "Network": [
+  null,
+  "Ağ"
+ ],
+ "Network I/O": [
+  null,
+  "Ağ G/Ç"
+ ],
+ "Network I/O spike": [
+  null,
+  "Ağ G/Ç sıçraması"
+ ],
+ "Network usage": [
+  null,
+  "Ağ kullanımı"
+ ],
+ "No data available": [
+  null,
+  "Mevcut veri yok"
+ ],
+ "No data available between $0 and $1": [
+  null,
+  "$0 ile $1 arasında mevcut veri yok"
+ ],
+ "No logs found": [
+  null,
+  "Bulunan günlükler yok"
+ ],
+ "Not permitted to perform this action.": [
+  null,
+  "Bu eylemi gerçekleştirmeye izinli değil."
+ ],
+ "Notebook": [
+  null,
+  "Notebook"
+ ],
+ "Ok": [
+  null,
+  "Tamam"
+ ],
+ "Other": [
+  null,
+  "Diğer"
+ ],
+ "Out": [
+  null,
+  "Giden"
+ ],
+ "Overview": [
+  null,
+  "Genel Bakış"
+ ],
+ "Package cockpit-pcp is missing for metrics history": [
+  null,
+  "Ölçüm geçmişi için cockpit-pcp paketi eksik"
+ ],
+ "PackageKit crashed": [
+  null,
+  "PackageKit çöktü"
+ ],
+ "Performance Metrics": [
+  null,
+  "Performans Ölçümleri"
+ ],
+ "Peripheral chassis": [
+  null,
+  "Çevresel donanım kasası"
+ ],
+ "Pizza box": [
+  null,
+  "Pizza box"
+ ],
+ "Portable": [
+  null,
+  "Taşınabilir"
+ ],
+ "Present": [
+  null,
+  "Mevcut"
+ ],
+ "RAID chassis": [
+  null,
+  "RAID kasası"
+ ],
+ "RAM": [
+  null,
+  "RAM"
+ ],
+ "Rack mount chassis": [
+  null,
+  "Raf montajlı kasa"
+ ],
+ "Read": [
+  null,
+  "Okuma"
+ ],
+ "Reboot": [
+  null,
+  "Yeniden başlat"
+ ],
+ "Removals:": [
+  null,
+  "Kaldırılanlar:"
+ ],
+ "Removing $0": [
+  null,
+  "$0 kaldırılıyor"
+ ],
+ "Sealed-case PC": [
+  null,
+  "Mühürlü Kasa PC"
+ ],
+ "Server has closed the connection.": [
+  null,
+  "Sunucu bağlantıyı kapattı."
+ ],
+ "Service": [
+  null,
+  "Hizmet"
+ ],
+ "Single rank": [
+  null,
+  "Tek sıra"
+ ],
+ "Space-saving computer": [
+  null,
+  "Yerden kazandıran bilgisayar"
+ ],
+ "Stick PC": [
+  null,
+  "Çubuk PC"
+ ],
+ "Sub-Chassis": [
+  null,
+  "Alt Kasa"
+ ],
+ "Sub-Notebook": [
+  null,
+  "Sub-Notebook"
+ ],
+ "Swap": [
+  null,
+  "Takas"
+ ],
+ "Swap out": [
+  null,
+  "Giden takas"
+ ],
+ "Tablet": [
+  null,
+  "Tablet"
+ ],
+ "The server refused to authenticate using any supported methods.": [
+  null,
+  "Sunucu, desteklenen herhangi bir yöntemi kullanarak kimlik doğrulamayı reddetti."
+ ],
+ "Today": [
+  null,
+  "Bugün"
+ ],
+ "Too much data": [
+  null,
+  "Çok fazla veri"
+ ],
+ "Top 5 CPU services": [
+  null,
+  "En iyi 5 CPU hizmeti"
+ ],
+ "Top 5 memory services": [
+  null,
+  "En iyi 5 bellek hizmeti"
+ ],
+ "Total size: $0": [
+  null,
+  "Toplam boyut: $0"
+ ],
+ "Tower": [
+  null,
+  "Tower"
+ ],
+ "Troubleshoot": [
+  null,
+  "Sorun gider"
+ ],
+ "Unknown": [
+  null,
+  "Bilinmiyor"
+ ],
+ "Untrusted host": [
+  null,
+  "Güvenilmeyen anamakine"
+ ],
+ "Usage": [
+  null,
+  "Kullanım"
+ ],
+ "Used": [
+  null,
+  "Kullanılan"
+ ],
+ "Waiting for other software management operations to finish": [
+  null,
+  "Diğer yazılım yönetimi işlemlerinin bitmesi bekleniyor"
+ ],
+ "Write": [
+  null,
+  "Yazma"
+ ],
+ "You need to relogin to be able to see metrics": [
+  null,
+  "Ölçümleri görebilmek için yeniden oturum açmanız gerekli"
+ ],
+ "Your session has been terminated.": [
+  null,
+  "Oturumunuz sonlandırıldı."
+ ],
+ "Your session has expired. Please log in again.": [
+  null,
+  "Oturumunuzun süresi doldu. Lütfen tekrar oturum açın."
+ ],
+ "[$0 bytes of binary data]": [
+  null,
+  "[$0 bayt ikili veri]"
+ ],
+ "[binary data]": [
+  null,
+  "[ikili veri]"
+ ],
+ "[no data]": [
+  null,
+  "[veri yok]"
+ ],
+ "nice": [
+  null,
+  "harika"
+ ],
+ "sys": [
+  null,
+  "sys"
+ ],
+ "user": [
+  null,
+  "kullanıcı"
+ ]
+});
